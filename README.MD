@@ -105,31 +105,9 @@ The Power BI dashboard contains two pages:
 
 ### Page 1 — Customer Churn Overview
 
-![Customer Churn Dashboard](screenshots/dashboard_page1.png)
+![Customer Churn Dashboard](screenshots/dashboard1.png)
 
 ### Page 2 — Customer Risk Intelligence
 
-![Customer Risk Intelligence](screenshots/dashboard_page2.png)
+![Customer Risk Intelligence](screenshots/dashboard2.png)
 
-## Project Structure
-
-```text
-CUSTOMER-CHURN-ANALYTICS/
-│
-├── data/
-│   ├── customer_churn_cleaned.csv
-│   └── customer_churn_predictions.csv
-│
-├── src/
-│   ├── analysis.py
-│   ├── cleaning.py
-│   ├── eda.py
-│   ├── train_model.py
-│   └── predict.py
-│
-├── screenshots/
-│   ├── dashboard_page1.png
-│   └── dashboard_page2.png
-│
-├── requirements.txt
-└── README.md
